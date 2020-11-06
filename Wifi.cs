@@ -7,7 +7,7 @@ namespace GetWifiPasswords
 {
     /*
      * All code comes from : https://github.com/r3nhat/SharpWifiGrabber
-     * All credits go
+     * All credits go to this guy
      */
     public class Wifi
     {
