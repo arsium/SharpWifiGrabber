@@ -1,3 +1,4 @@
+To use the dll , use it like : var a = GetWifiPasswords.Wifi.GetPassword(); or Dim a = GetWifiPasswords.Wifi.GetPassword()
 # Sharp Wifi Password Grabber
 
 ----
