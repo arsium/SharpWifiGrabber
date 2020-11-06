@@ -64,13 +64,13 @@ namespace GetWifiPasswords
 
                         foreach (XmlNode ssid in pathToSSID)
                         {
-                            endList.Append(String.Format(ssid.InnerText)); //SSIDSSID:
+                            endList.Append(String.Format("SSID:" + ssid.InnerText)); //SSIDSSID:
                             foreach (XmlNode password in pathToPassword)
                             {
                              
-                                endList.Append(String.Format("|" + password.InnerText));
+                                endList.Append(String.Format("  Password:" + password.InnerText));
                             }
-                            endList.Append("||");
+                            endList.Append(Environment.NewLine);
                      
 
                         }
